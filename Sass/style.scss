@@ -1,0 +1,82 @@
+@import "./utils/variables";
+
+body
+{
+    background: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg), #19A1AD;
+    background-position: -43% 90%, 133% -59%, 0 0;
+    background-repeat: no-repeat;
+}
+
+
+
+.card
+{
+    width: 350px; /* about 23% width personal screen & 50% heigth personal screen*/
+    height: 375px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 30px 80px #157d86;
+    overflow: hidden;
+    text-align: center;
+    &__background
+    {
+        width: 100%;
+        display: block;
+    }
+    &__photograph
+    {
+        display: block;
+        border-radius: 50%;
+        margin: auto;
+        transform: translate(0, 5px);
+    }
+    &__profile
+    {
+        position: relative;
+        box-shadow: 0 -1px 1px #19A1AD;
+    }
+    &__heading
+    {
+        margin: 0;
+        &--thin
+        {
+            display: inline-block;
+            padding-top: 70px;
+            font-weight: 400;
+            color: #979797;
+        }
+    }
+    &__text
+    {
+        color: #979797;
+        font-size: 14px;
+        margin-top: 0.5rem;
+        margin-bottom: 1.5rem;
+        &--small
+        {
+            font-size: 12px;
+            margin-top: 0.3rem;
+        }
+    }
+    &__score
+    {
+        display: flex;
+        justify-content: space-evenly;
+        border-top: solid 1px #d6d6d6;
+        padding-top: 1.5rem;
+    }
+}
+
+.half-circle
+{
+    width: 106px;
+    height: 53px;
+    border-top-left-radius: 54px;
+    border-top-right-radius: 54px;
+    position: absolute;
+    top: -53px;
+    left: 122px;
+    background-color: #fff;
+    box-shadow: 0 -1px 1px #19A1AD;
+}

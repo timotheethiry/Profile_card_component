@@ -1,0 +1,75 @@
+body {
+  background: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg), #19A1AD;
+  background-position: -43% 54%, 133% -35%, 0 0;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.card {
+  width: 350px; /* about 23% width personal screen & 50% heigth personal screen*/
+  height: 375px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 30px 80px #157d86;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+  top: 20%;
+}
+.card__background {
+  width: 100%;
+  display: block;
+}
+.card__photograph {
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+  transform: translate(0, 5px);
+}
+.card__profile {
+  position: relative;
+  box-shadow: 0 -1px 1px #19A1AD;
+}
+.card__heading {
+  margin: 0;
+}
+.card__heading--thin {
+  display: inline-block;
+  padding-top: 70px;
+  font-weight: 400;
+  color: #979797;
+}
+.card__text {
+  color: #979797;
+  font-size: 14px;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.card__text--small {
+  font-size: 12px;
+  margin-top: 0.3rem;
+}
+.card__score {
+  display: flex;
+  justify-content: space-evenly;
+  border-top: solid 1px #d6d6d6;
+  padding-top: 1.5rem;
+}
+
+.half-circle {
+  width: 106px;
+  height: 53px;
+  border-top-left-radius: 54px;
+  border-top-right-radius: 54px;
+  position: absolute;
+  top: -53px;
+  left: 122px;
+  background-color: #fff;
+  box-shadow: 0 -1px 1px #19A1AD;
+}
+
+/*# sourceMappingURL=style.css.map */
