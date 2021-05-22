@@ -1,10 +1,28 @@
 @import "./utils/variables";
 
+@font-face {
+    font-family: Kumbh Sans;
+    src: url(../fonts/KumbhSans-Regular.ttf) format(truetype),
+         url(../fonts/KumbhSans-Bold.ttf) format(truetype);
+    font-weight: 400 700;
+}
+
 body
 {
     background: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg), #19A1AD;
-    background-position: -43% 90%, 133% -59%, 0 0;
+    background-position: -43% 54%, 133% -35%, 0 0;
     background-repeat: no-repeat;
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Kumbh Sans', 'Open Sans', sans-serif;
+    @media screen and (max-width: 576px) 
+    {
+        background-position: 170% 60%, -75% -60%, 0 0;
+        background-size: 600px 600px;
+    }
 }
 
 
@@ -19,6 +37,12 @@ body
     box-shadow: 0 30px 80px #157d86;
     overflow: hidden;
     text-align: center;
+    position: relative;
+    top: 20%;
+    @media screen and (max-width: 576px) 
+    {
+        width: 330px;        
+    }
     &__background
     {
         width: 100%;
@@ -79,4 +103,8 @@ body
     left: 122px;
     background-color: #fff;
     box-shadow: 0 -1px 1px #19A1AD;
+    @media screen and (max-width: 576px) 
+    {
+        left: 112px;      
+    }
 }
