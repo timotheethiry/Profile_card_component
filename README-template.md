@@ -26,8 +26,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![Desktop version] (./images/screenshot_desktop.png)
-![Mobile version] (./images/screenshot_mobile.png)
+![./images/screenshot_desktop.png]
+![./images/screenshot_mobile.png]
 
 ### Links
 
@@ -88,23 +88,21 @@ body {
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In the future, I will search to improve my html structure and classes naming to keep my code maintenable. I'm interested in keep learning to draw shapes with CSS.
+I'm not quite satisfied with how I positioned the background patterns, as it is not responsive. I focused on mobile (iPhone X) and desktop (14inches) viewports and need another solution to make the background responsive for al screen sizes.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Example resource 1](https://codepen.io/xram/pen/thLsk) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Example resource 2](https://stackoverflow.com/questions/22415651/half-circle-with-css-border-outline-only) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
 - Website - [Timothée Thiry] (https://timothee-thiry.welovedevs.com/)
-- Frontend Mentor - [@yourusername] (https://www.frontendmentor.io/profile/timotheethiry)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/timotheethiry)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+I'd like to thank all the devs that spend time to help other devs through forums such as Stakoverflow, and those who share their code to use or learn from freely.
 
