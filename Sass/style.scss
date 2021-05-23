@@ -55,6 +55,22 @@ body
         margin: auto;
         transform: translate(0, 5px);
     }
+    &__half-circle
+    {
+        width: 106px;
+        height: 53px;
+        border-top-left-radius: 54px;
+        border-top-right-radius: 54px;
+        position: absolute;
+        top: -53px;
+        left: 122px;
+        background-color: #fff;
+        box-shadow: 0 -1px 1px #19A1AD;
+        @media screen and (max-width: 576px) 
+        {
+            left: 112px;      
+        }
+    }
     &__profile
     {
         position: relative;
@@ -89,22 +105,5 @@ body
         justify-content: space-evenly;
         border-top: solid 1px #d6d6d6;
         padding-top: 1.5rem;
-    }
-}
-
-.half-circle
-{
-    width: 106px;
-    height: 53px;
-    border-top-left-radius: 54px;
-    border-top-right-radius: 54px;
-    position: absolute;
-    top: -53px;
-    left: 122px;
-    background-color: #fff;
-    box-shadow: 0 -1px 1px #19A1AD;
-    @media screen and (max-width: 576px) 
-    {
-        left: 112px;      
     }
 }
