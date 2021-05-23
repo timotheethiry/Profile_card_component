@@ -71,6 +71,7 @@ body {
 }
 .card__heading {
   margin: 0;
+  font-weight: bold;
 }
 .card__heading--thin {
   display: inline-block;
