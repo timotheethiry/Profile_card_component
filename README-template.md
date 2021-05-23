@@ -26,8 +26,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![Desktop screen size] (./images/screenshot_desktop.png)
-![Mobile screen size] (./images/screenshot_mobile.png)
+![Desktop screen size](./images/screenshot_desktop.png)
+![Mobile screen size](./images/screenshot_mobile.png)
 
 ### Links
 
