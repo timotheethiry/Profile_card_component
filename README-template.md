@@ -26,8 +26,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![./images/screenshot_desktop.png]
-![./images/screenshot_mobile.png]
+![Desktop screen size] (./images/screenshot_desktop.png)
+![Mobile screen size] (./images/screenshot_mobile.png)
 
 ### Links
 
@@ -94,8 +94,8 @@ I'm not quite satisfied with how I positioned the background patterns, as it is 
 
 ### Useful resources
 
-- [Example resource 1](https://codepen.io/xram/pen/thLsk) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://stackoverflow.com/questions/22415651/half-circle-with-css-border-outline-only) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [CSS shapes ressource 1](https://codepen.io/xram/pen/thLsk)
+- [CSS shapes resource 2](https://stackoverflow.com/questions/22415651/half-circle-with-css-border-outline-only) - These two pages teached me an easy way to draw a half circle.
 
 ## Author
 
